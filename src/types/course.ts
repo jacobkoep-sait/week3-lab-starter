@@ -1,7 +1,7 @@
 import { Delivery } from './common';
 
 // TODO: Create a type for course ids, which should be strings
-let CourseId: number;
+type CourseId = string;
 // TODO: Create an interface for courses
 // The interface should include the following properties:
 // an id (hint: use the CourseId type created above)
@@ -18,13 +18,15 @@ let CourseId: number;
 // an optional array of program ids that this course is part of
 
 export interface Course {
-    courseId: typeof CourseId;
+    courseId: CourseId;
     courseCode: number;
     title: string;
     description: string;
     credits?: number;
     termNumber?: number;
     delivery?: Delivery;
+    preReq?: CourseId[];
+    note?
 
 
 }
