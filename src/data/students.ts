@@ -1,5 +1,58 @@
 import type { Student } from "../types/student";
 
 export const students: Student[] = [
-  // add students here
+  {
+    id: "000123456",
+    name: "Crescia Dominguez",
+    year: 2,
+    status: "Full-time",
+    interests: ["Video Games", "Singing", "UX Design"],
+    githubUsername: "cresdom",
+    funFact: "Has never broken a bone",
+    programId: "Software Development",
+    currentCourseIds: [
+      "CPSY-301",
+      "CPRG-307",
+      "CPRG-306",
+      "CPRG-304",
+      "CPRG-303",
+    ],
+  },
+  {
+    id: "000321654",
+    name: "Helanie Dominguez",
+    year: 2,
+    status: "Full-time",
+    interests: ["Travel", "Concerts", "Dachsunds"],
+    githubUsername: "helaniedom",
+    programId: "Software Development",
+    currentCourseIds: [
+      "CPSY-301",
+      "CPRG-307",
+      "CPRG-306",
+      "CPRG-304",
+      "CPRG-303",
+    ],
+  },
+  {
+    id: "000987654",
+    name: "Mason Mata",
+    year: 3,
+    status: "Part-time",
+    interests: ["Trying new food", "Skydiving"],
+    funFact: "Previously worked as an IT technician",
+    programId: "Cybersecurity",
+    currentCourseIds: ["CPSY-200"],
+  },
+  {
+    id: "000111222",
+    name: "Peter Piper",
+    year: 1,
+    status: "Full-time",
+    interests: ["Mobile App Development", "UI Design"],
+    githubUsername: "peterpiper",
+    funFact: "Designs app mockups in their spare time",
+    programId: "Information Security Systems",
+    currentCourseIds: ["UXID-110", "CPSY-302", "CPRG-123"],
+  },
 ];
