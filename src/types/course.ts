@@ -1,4 +1,4 @@
-import { Delivery } from './common';
+import { Delivery } from "./common";
 
 // TODO: Create a type for course ids, which should be strings
 type CourseId = string;
@@ -18,15 +18,14 @@ type CourseId = string;
 // an optional array of program ids that this course is part of
 
 export interface Course {
-    courseId: CourseId;
-    courseCode: number;
-    title: string;
-    description: string;
-    credits?: number;
-    termNumber?: number;
-    delivery?: Delivery;
-    preReq?: CourseId[];
-    note?
-
-
+  courseId: CourseId;
+  courseCode: number;
+  title: string;
+  description: string;
+  credits?: number;
+  termNumber?: number;
+  delivery?: Delivery;
+  preReq?: CourseId[];
+  note?: string;
+  programsPartOf?: programId[];
 }

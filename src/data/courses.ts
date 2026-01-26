@@ -20,7 +20,7 @@ export const courses: Course[] = [
       "Introduction to programming using a modern high-level language, focusing on problem-solving and code structure.",
     credits: 4,
     termNumber: 1,
-    delivery: "Hybrid",
+    delivery: "Blended",
     preReq: ["CS101"],
     programsPartOf: ["CS", "SE"],
   },
