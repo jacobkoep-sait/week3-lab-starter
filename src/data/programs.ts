@@ -1,5 +1,7 @@
 import { Program } from "../types/program";
 
+// 5 Sample Program Data
+
 export const samplePrograms: Program[] = [
   {
     id: "prog-001",
