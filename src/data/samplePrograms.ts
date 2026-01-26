@@ -1,7 +1,6 @@
 import { Program } from "../types/program";
 
 // 5 Sample Program Data
-
 export const samplePrograms: Program[] = [
   {
     id: "prog-001",
@@ -11,11 +10,7 @@ export const samplePrograms: Program[] = [
     numberOfCredits: 60,
     school: "MacPhail School of Energy",
     delivery: "In-person",
-    careerPath: [
-      "Electrical Technician",
-      "Power Systems Technician",
-      "Energy Manager",
-    ],
+    careerPath: ["Electrical Technician", "Power Systems Technician", "Energy Manager"],
     note: "Hands-on training with industry-standard equipment",
   },
   {
@@ -26,11 +21,7 @@ export const samplePrograms: Program[] = [
     numberOfCredits: 30,
     school: "School for Advanced Digital Technology",
     delivery: "Blended",
-    careerPath: [
-      "Data Analyst",
-      "Business Intelligence Specialist",
-      "Analytics Developer",
-    ],
+    careerPath: ["Data Analyst", "Business Intelligence Specialist", "Analytics Developer"],
     note: "Includes real-world data projects",
   },
   {
@@ -41,11 +32,7 @@ export const samplePrograms: Program[] = [
     numberOfCredits: 90,
     school: "School of Business",
     delivery: "In-person",
-    careerPath: [
-      "Business Manager",
-      "Operations Supervisor",
-      "Project Coordinator",
-    ],
+    careerPath: ["Business Manager", "Operations Supervisor", "Project Coordinator"],
   },
   {
     id: "prog-004",
@@ -55,11 +42,7 @@ export const samplePrograms: Program[] = [
     numberOfCredits: 60,
     school: "School of Construction",
     delivery: "In-person",
-    careerPath: [
-      "Project Manager",
-      "Site Supervisor",
-      "Construction Inspector",
-    ],
+    careerPath: ["Project Manager", "Site Supervisor", "Construction Inspector"],
     note: "Includes field experience and safety certifications",
   },
   {
@@ -70,11 +53,7 @@ export const samplePrograms: Program[] = [
     numberOfCredits: 64,
     school: "School of Health and Public Safety",
     delivery: "Blended",
-    careerPath: [
-      "Licensed Practical Nurse",
-      "Healthcare Coordinator",
-      "Patient Advocate",
-    ],
+    careerPath: ["Licensed Practical Nurse", "Healthcare Coordinator", "Patient Advocate"],
     note: "Includes clinical placements in partner hospitals",
   },
 ];
