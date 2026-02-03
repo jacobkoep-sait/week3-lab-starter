@@ -3,15 +3,14 @@ export type StaffId = string;
 import {School} from './common';
 
 // TODO: Create a type for staff roles, which can be "Instructor", "Program Chair", "Coordinator", or "Advisor"
-type StaffRoles = [
-    "Instructor", "Program Chair", "Coordinator", "Advisor"];
+type StaffRoles = 
+    "Instructor" | "Program Chair" | "Coordinator" | "Advisor";
 
-// TODO: Create an interface for staff members
-interface StaffRole {
-    staffID: StaffId;
-    name : string;
-    staffRole: StaffRoles;
-
+interface Specialties {
+    english: Boolean;
+    math: Boolean;
+    socialStudies: Boolean;
+    science: Boolean;
 }
 // The interface should include the following properties:
 // an id (hint: use the StaffId type created above)
@@ -27,4 +26,14 @@ interface StaffRole {
 // once all group members have completed their sections, add the following field:
 // an optional array of course ids that this staff member teaches
 
-export interface Staff {}
+export interface Staff {
+    staffID: StaffId;
+    name : string;
+    staffRole: StaffRoles;
+    school: School;
+    officeLocation?: string;
+    email?: string;
+    startYear?: string;
+    specialties: Specialties;
+    funFact?: string;
+}
