@@ -1,5 +1,87 @@
 import type { Student } from "../types/student";
 
 export const students: Student[] = [
-  // add students here
+  {
+    id: "STU001",
+    name: "Alex Rivera",
+    year: 1,
+    status: "Full-time",
+    interests: ["coding", "rock climbing", "coffee"],
+    gitUsername: "alex-codes-99",
+    funfact: "I have a twin brother who is also a programmer.",
+    programId: ["PROG-CS"],
+    courseId: ["CS-101", "MATH-151", "ENG-102"],
+  },
+  {
+    id: "STU002",
+    name: "Samira Patel",
+    year: 3,
+    status: "Full-time",
+    interests: ["photography", "pens", "digital art"],
+    gitUsername: "samira-p",
+    programId: ["PROG-GD"],
+    courseId: ["ART-302", "VCD-310"],
+  },
+  {
+    id: "STU003",
+    name: "Marcus Vance",
+    year: 2,
+    status: "Part-time",
+    interests: ["rocks", "hiking", "geology"],
+    funfact: "I once found a geode shaped exactly like a heart.",
+    programId: ["PROG-ESC"],
+    courseId: ["GEOL-201"],
+  },
+  {
+    id: "STU004",
+    name: "Chloe Zhao",
+    year: 4,
+    status: "Full-time",
+    interests: ["pencils", "animation", "gaming"],
+    gitUsername: "chloe-z-draws",
+    funfact: "I can speak four languages fluently.",
+    programId: ["PROG-ANI"],
+    courseId: ["ANI-401", "ANI-402", "CAP-499"],
+  },
+  {
+    id: "STU005",
+    name: "Jordan Davies",
+    year: 1,
+    status: "Part-time",
+    interests: ["none", "cooking"],
+    gitUsername: "jordan-devs",
+    funfact: "I used to be a professional pastry chef.",
+    // Program and courses left out entirely (optional fields)
+  },
+  {
+    id: "STU006",
+    name: "Elena Rostova",
+    year: 2,
+    status: "Full-time",
+    interests: ["chess", "coffee", "cybersecurity"],
+    gitUsername: "elena-rostov",
+    funfact: "I can solve a Rubik's cube blindfolded.",
+    programId: ["PROG-CS", "MIN-CYBER"], // Multiple program IDs if they are double majoring/minoring
+    courseId: ["CS-210", "SEC-250", "MATH-221"],
+  },
+  {
+    id: "STU007",
+    name: "Tyler Nguyen",
+    year: 3,
+    status: "Part-time",
+    interests: ["music production", "skateboarding"],
+    funfact: "I built my own electric guitar from scratch.",
+    courseId: ["MUS-301"], // Has courses but programId omitted
+  },
+  {
+    id: "STU008",
+    name: "Aisha Touré",
+    year: 4,
+    status: "Full-time",
+    interests: ["machine learning", "robotics", "scuba diving"],
+    gitUsername: "aisha-t-ai",
+    funfact: "I have dived with whale sharks in the Maldives.",
+    programId: ["PROG-ROB"],
+    courseId: ["ROB-411", "AI-450"],
+  },
 ];

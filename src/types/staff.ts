@@ -1,5 +1,7 @@
 // TODO: Create a type for staff ids, which should be strings
 
+import { School } from "./common";
+
 // TODO: Create a type for staff roles, which can be "Instructor", "Program Chair", "Coordinator", or "Advisor"
 
 // TODO: Create an interface for staff members
@@ -16,5 +18,26 @@
 
 // once all group members have completed their sections, add the following field:
 // an optional array of course ids that this staff member teaches
+
+type staffId = string;
+
+type staffRoles = "Instructor" | "Program Chair" | "Coordinator" | "Advisor";
+
+interface staffMembers {
+  id: staffId;
+  name: String;
+  role: staffRoles;
+  school: School;
+
+  officeLocation?: string;
+  email?: string;
+  startYear?: number;
+
+  specialties: string[];
+
+  courseIds: string[];
+
+  funFact: string;
+}
 
 export interface Staff {}

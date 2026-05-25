@@ -5,7 +5,7 @@ import CoursesSection from "../src/ui/courses/CoursesSection";
 import ProgramsSection from "../src/ui/programs/ProgramsSection";
 import StaffSection from "../src/ui/staff/StaffSection";
 import StudentsSection from "../src/ui/students/StudentsSection";
-
+// test
 export default function Index() {
   return (
     <SafeAreaView>
