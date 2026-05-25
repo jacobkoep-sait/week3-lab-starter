@@ -1,6 +1,10 @@
 // TODO: Create a type for student ids, which should be strings
-
+type ResourceId =String;
 // TODO: Create a type for student statuses, which can either be "Full-time", or "Part-time"
+type studentstatuses=
+   |"Full-time"
+   |"Part-time";
+
 
 // TODO: Create an interface for students
 // The interface should include the following properties:
@@ -15,5 +19,14 @@
 // once all group members have completed their sections, add the following fields:
 // an optional program id
 // an optional array of current course ids
+export interface Student {
+    StudentId:ResourceId;
+    name:string;
+    year:Date;
+    status:studentstatuses;
+    github?:string;
+    funfact?:string;
+    interests:string[];
 
-export interface Student {}
+
+}

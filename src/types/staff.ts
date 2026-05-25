@@ -17,4 +17,7 @@
 // once all group members have completed their sections, add the following field:
 // an optional array of course ids that this staff member teaches
 
-export interface Staff {}
+export interface Staff {
+   
+
+}
